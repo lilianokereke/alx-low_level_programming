@@ -1,2 +1,2 @@
 #!/bin/bash
-egcc -E$CFILE > c 
+egcc -E $CFILE > c 

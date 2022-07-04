@@ -2,7 +2,7 @@
 /**
  * main -Entry point
  * Description:starting at main, using printf to print,ending with return
- *  return -Always 0 (success)
+ *  return : always return 0 
 */
 int main(void)
 {

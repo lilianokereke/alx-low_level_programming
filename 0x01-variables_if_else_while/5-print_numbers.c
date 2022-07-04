@@ -5,10 +5,10 @@
 */
 int main(void)
 {
-int numb;
-for (numb = 0; numb <= 10; numb++)
+int ltr;
+for (ltr = 0; ltr <= 10; ltr++)
 {
-putchar(numb);
+putchar(ltr);
 }
 return (0);
 }

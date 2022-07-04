@@ -10,5 +10,8 @@ for (ltr = 0; ltr < 10; ltr++)
 {
 putchar((ltr % 10) + '0');
 }
+{
+putchar('\n')
+}
 return (0);
 }

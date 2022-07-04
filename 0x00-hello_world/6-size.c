@@ -2,11 +2,11 @@
 /**
 * main - Entry point
 *
-* Return : always 0 (success)
+* Return : 0 on successful
 */
-int main (void)
 {
-sizeof(int);
-sizeof(char);
+int main(void)
+sizeof(int)
+sizeof(char)
 return (0);
 }

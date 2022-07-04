@@ -8,7 +8,7 @@ int main(void)
 int ltr;
 for (ltr = 0; ltr <= 10; ltr++)
 {
-putchar(ltr);
+putchar((ltr % 10) + '0');
 }
 return (0);
 }

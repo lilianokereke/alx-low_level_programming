@@ -11,4 +11,5 @@ for (ltr = 'a'; ltr <= 'z'; ltr++)
 {
 putchar(ltr);
 }
+return (0);
 }

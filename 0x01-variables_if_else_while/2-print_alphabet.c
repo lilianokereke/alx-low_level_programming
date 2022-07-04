@@ -4,7 +4,8 @@
 * Return: 0 always successful
 *
 */
-int main(void){
+int main(void)
+{
 char ltr;
 for (ltr = 'a'; ltr <= 'z'; ltr++)
 {

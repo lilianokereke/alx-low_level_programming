@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * Description:starting at main, using printf to print,ending with return
- *  return: always return 0 
+ *
+ *
+ * return: always return 0 
 */
 int main(void)
 {

@@ -1,19 +1,10 @@
-#include <stdio.h>
-/**
- * main - check the code
- * Return: 0 always successful
- */
+#include "stdio.h"
 void print_alphabet(void);
-int main(void)
-{
-	char print_alphabet;
 
-	for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
-	{
-		putchar(print_alphabet);
-	}
-	{
-		putchar('\n');
-	}
-	return(0);
+char letter;
+{
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+_putchar('\n');
+
 }

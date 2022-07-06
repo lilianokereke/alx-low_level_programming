@@ -1,17 +1,19 @@
 #include "main.h"
+#include "ctype.h"
 /**
  *
  *
  */
 int _islower(int c)
 {
-	if (c = 'c')
+	if ( _islower(c))
 	{
-		_putchar(1);
+		_putchar('1');
 	}
 	else
 	{
-		_putchar(0);
+		_putchar('0');
 	}
 	return (0);
+
 }

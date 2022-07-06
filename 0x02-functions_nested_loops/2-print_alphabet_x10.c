@@ -3,15 +3,15 @@
  *
  * print_alphabet_x10 - Entry point
  */
-void print_alphabet_x10(void)
-	char i;
-	int num;
+void main(void)
+	char alpha;
+	int num = 0;
 	{
 	while (num++ < 9)
 {
-	for (i = 'a'; i <= 'z'; i++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(i);
+		_putchar(alpha);
 	}
 	{
 		_putchar('\n');

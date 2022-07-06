@@ -8,25 +8,14 @@
  *   */
 
 void print_alphabet_x10(void)
-
 {
+	char ltr;
 
-		int count = 0;
-
-			char letter;
-
-
-
-				while (count++ <= 9)
-
-						{
-
-									for (letter = 'a'; letter <= 'z'; letter++)
-
-													_putchar(letter);
-
-											_putchar('\n');
-
-												}
-
+	int num = 0;
+	
+	while (num++ <=9)
+	{
+		for (ltr = 'a'; ltr <= 'z'; ltr++)
+			_putchar(ltr);
+	}
 }

@@ -1,24 +1,29 @@
 #include "main.h"
 /**
- * print_line - Draws a straight line using the character _.
- * @n: The number of _ characters to be printed.
- * Return: no returnn
+ * print_diagonal - prins diagonal lines n times
+ * @n: times diagonal line is printed.
+ * Return: no return.
  */
-void print_line(int n)
-{
+void print_diagonal(int n)
 
-	int i, j;
-for (i = 0; i < n; i++)
 {
+int x, y;
 
-for (j = 0; j < i; j++)
+	for (x = 0; x < n; x++)
+
 	{
-_putchar(' ');
-	}
-	_putchar(92);
-	if (i < (n - 1))
 
-	_putchar('\n');
-}
+for (y = 0; y < x; y++)
+		{
+			_putchar(' ');
+		}
+_putchar(92);
+
+if (x < (n - 1))
+
+
 _putchar('\n');
+
+	}
+	_putchar('\n');
 }

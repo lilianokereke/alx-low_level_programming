@@ -6,6 +6,9 @@
 void _puts(char *str)
 {
 	char a = *str;
+
+	while(a++)
+
 	_putchar(a);
 	_putchar('\n');
 }

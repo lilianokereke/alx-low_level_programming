@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * reser_to_98 - resets the pointer n
+ * reset_to_98 - resets the pointer n
+ * @n: the parameter of the function
  */
 void reset_to_98(int *n)
 {

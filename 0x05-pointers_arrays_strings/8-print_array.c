@@ -7,8 +7,8 @@
  */
 void print_array(int *a, int n)
 {
-	int arr[n];
+	int a[n];
 
-	printf("%d, \n", arr[n]);
+	printf("%d, \n", a[n]);
 
 }

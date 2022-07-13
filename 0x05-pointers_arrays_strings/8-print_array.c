@@ -9,6 +9,6 @@ void print_array(int *a, int n)
 {
 	*a = a[n];
 
-	printf("%d, \n", a[n]);
+	printf("%d, \n", n);
 
 }

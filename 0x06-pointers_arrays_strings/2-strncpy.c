@@ -3,7 +3,7 @@
  * _strncpy - to copy the src string to dest
  * @dest: copies to me
  * @src: copies from me
- * @n: the nu,ber to be copied from src
+ * @n: the number to be copied from src
  * Return: it returns the changed dest
  */
 char *_strncpy(char *dest, char *src, int n)

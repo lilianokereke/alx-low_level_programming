@@ -1,17 +1,17 @@
 #include "main.h"
 /**
  * string_toupper - converts string to upper
- * @ch: the string
+ * @s: the string
  * Return: it returns our string
  */
-char *string_toupper(char *ch)
+char *string_toupper(char *s)
 {
 	int i = 0;
 
-	while (ch[i] != '\0')
+	while (s[i] != '\0')
 
-		if (ch[i] >= 'a' && ch[i] <= 'z')
-			ch[i] = ch[i] - 32;
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
 	i++;
-	return (ch);
+	return (s);
 }

@@ -7,11 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
+	printf("%s\n", argv[0]);
 
-	for (; i < argc; i++)
-	{
-	printf("this is the name %s\n", argv[i]);
-	}
 	return (0);
 }

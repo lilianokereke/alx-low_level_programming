@@ -1,15 +1,35 @@
-#include "main.h"
-/**
- * _isdigit - checks if the character is a digit
- * @c: The character to be checked
- * Return: 1 if the character is a digit else 0
- */
-int _isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
+5-sqrt_recursion.o                           
 
-	else
-		return (0);
-}
+5-string_toupper.o                           
 
+5-strstr.o                                   
+
+6-abs.o                                      
+
+6-cap_string.o                               
+
+6-is_prime_number.o                          
+
+6-print_line.o                               
+
+6-puts2.o                                    
+
+7-leet.o                                     
+
+7-print_chessboard.o                         
+
+7-print_diagonal.o                           
+
+7-print_last_digit.o                         
+
+7-puts_half.o                                
+
+8-print_array.o                              
+
+8-print_diagsums.o                           
+
+8-print_square.o                             
+
+9-fizz_buzz.o                                
+
+9-strcpy.o        

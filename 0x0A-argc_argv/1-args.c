@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - entry point
- * @ argv: argument vector
+ * @argv: argument vector
  * @argc: number of argument
+ * Return: 0 on success
  */
 int main(int argc, char *argv[])
 {
 	printf("%d", argc);
 
-	return (0);	
+	return (0);
 }

@@ -3,11 +3,13 @@
 /**
  * malloc_checked - allocate memory
  * @b: the number of bytes to be allocated
- * Reeturn: our pointer to nthe allocated memory
+ * Return: our pointer to nthe allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
-	void  *mal= malloc(sizeof(b));
+	void  *mal;
+
+	mal = malloc(b);
 
 	if (mal == NULL)
 		exit(98);

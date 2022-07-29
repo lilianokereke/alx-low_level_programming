@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * array_range - allocates memory to the array
  * @min: minimum/ first value
@@ -7,10 +8,9 @@
  * Return: a pointer
  */
 int *array_range(int min, int max)
+
 {
-	int *arr;
-	int size;
-	unsigned int i;
+	unsigned int i, size, *arr;
 
 	if (min > max)
 		return (NULL);

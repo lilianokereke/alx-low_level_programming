@@ -1,11 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * _calloc - allocate memory to an array
  * @nmemb: element in the array
  * @size: bytes to be allocated
  * Return: a  pointers(read README)
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *arr;
@@ -20,4 +22,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	for (i = 0; i < (nmemb * size); i++)
 		arr[i] = 0;
 	return (arr);
+
 }

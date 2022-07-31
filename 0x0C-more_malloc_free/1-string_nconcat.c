@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * string_nconcat - allocate mem ta a string(concat)
  * @s1: first string
@@ -22,17 +23,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (s2len = 0; s2[s2len] != '\0'; s2len++)
 		;
 		if (n >= s2len)
+		{
 			n = s2len;
+		}
 	s3len = s1len + n;
 
 	s3 = malloc(s3len + 1);
-			if (s3 == NULL)
+		if (s3 == NULL)
 			return (NULL);
-			for (i = 0; i < s3len; i++)
-				if (i < s1len)
-					s3[i] = s1[i];
-				else
-					s3[i] = s2[i - s1len];
-			s3[i] = '\0';
-			return (s3);
+		for (i = 0; i < s3len; i++)
+		{
+			if (i < s1len)
+				s3[i] = s1[i];
+			else
+				s3[i] = s2[i - s1len];
+		}
+						s3[i] = '\0';
+							return (s3);
 }

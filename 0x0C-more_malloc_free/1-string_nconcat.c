@@ -2,13 +2,15 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - allocate mem ta a string(concat)
+ * string_nconcat - allocate mem to a string(concat)
  * @s1: first string
  * @s2: second string
  * @n: size of bytes
  * Return: popinter to a string
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
+
 {
 	char *s3;
 	int i;

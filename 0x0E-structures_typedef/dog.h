@@ -2,6 +2,7 @@
 #define DOG_H
 
 #define DOG
+#define DOG DOG_T
 /**
  * struct dog - data type
  * @name: 1st member

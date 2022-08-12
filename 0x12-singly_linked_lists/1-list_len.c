@@ -8,7 +8,7 @@ size_t list_len(const list_t *h)
 {
 	size_t num;
 
-	while (h != NULL)
+	while (h)
 	{
 		h = h->next;
 		num++;

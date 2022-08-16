@@ -10,18 +10,17 @@ int pop_listint(listint_t **head)
 	listint_t *deln;
 	int numb;
 
-	if ((*head == NULL))
+	if (head == NULL)
 	{
 		return (0);
 	}
 	else
 	{
-
+		deln = (*head);
 		numb = (*head)->n;
-		deln = (*head)->next;
-		free(head);
-		(*head) = deln;
-
-		return (numb);
+		(*head) = (*head)->next;
+		deln->next = NULL;
+		free(deln);
 	}
+		return (numb);
 }

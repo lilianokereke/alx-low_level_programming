@@ -33,9 +33,29 @@ int print_last_digit(int n)
 	_putchar('\n');
 	return (ld);
 }
+
+/**
+ *
+ *
+ */
+void jack_bauer(void)
+{
+	double start = 0;
+	double end = 23;
+	int len = start;
+
+	for (; start < end; start++)
+	{
+		len = _putchar(start);
+		_putchar(':');
+	}
+	_putchar(len);
+
+}
 int main ()
 {
 	int x = 123;
 	int nm = print_last_digit(x);
+	jack_bauer();
 	return (0);
 }

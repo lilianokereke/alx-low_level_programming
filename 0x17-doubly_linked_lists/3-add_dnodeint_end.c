@@ -6,7 +6,8 @@
  * @n: value of new node
  * Return: address of new node or null if its fails
  **/
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n){
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+{
 
 	dlistint_t *new;
 
@@ -28,7 +29,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n){
 	}
 
 	move = *head;
-	while(move->next != NULL)
+	while (move->next != NULL)
 	{
 		move = move->next;
 	}
